@@ -334,4 +334,205 @@ body {
     background-repeat: no-repeat;
 }
 
+#fifth-box {
+    height: 11.77%;
+    width: 98.8%;
+    background-color: white;
+    position: relative;
+    top: 4.20%;
+    left: 1.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#fifthb-one {
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 1.45%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 135%;
+    font-weight: bold;
+    position: relative;
+    bottom: 1.5%;
+}
+
+#fifthb-one p {
+    background-color: white;
+}
+
+#fifthb-two {
+    height: 73%;
+    background-color: white;
+    position: relative;
+    bottom: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ftwo {
+    height: 98%;
+    width: 18.5%;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.ftwo-1 {
+    height: 70%;
+    width: 90%;
+    background-color: aqua;
+}
+
+.ftwo-1:hover {
+    transform: scale(1.02);
+}
+
+.ftwo-2 {
+    height: 9%;
+    width: 90%;
+    background-color: aquamarine;
+}
+
+.ftwo-3 {
+    height: 11%;
+    width: 90%;
+    background-color: yellow;
+}
+
+#ft-11 {
+    background-image: url(all-images/puma-image.avif);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+#ft-21 {
+    background-image: url(all-images/fastrack-image.webp);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+#ft-31 {
+    background-image: url(all-images/watch-image.avif);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+#ft-41 {
+    background-image: url(all-images/jj-image.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ft-51 {
+    background-image: url(all-images/kurta-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth-box {
+    height: 36%;
+    width: 98.8%;
+    background-color: white;
+    position: relative;
+    top: 5.20%;
+    left: 1.2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sixthboxes {
+    height: 21%;
+    width: 32.5%;
+    cursor: pointer;
+}
+
+#sixth1 {
+    background-image: url(all-images/vivo-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth2 {
+    background-image: url(all-images/moto-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth3 {
+    background-image: url(all-images/poco-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth4 {
+    background-image: url(all-images/iron-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth5 {
+    background-image: url(all-images/wm-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth6 {
+    background-image: url(all-images/cf-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth7 {
+    background-image: url(all-images/decor-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth8 {
+    background-image: url(all-images/bedsheet-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth9 {
+    background-image: url(all-images/tools-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth10 {
+    background-image: url(all-images/speakers-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth11 {
+    background-image: url(all-images/mattress-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sixth12 {
+    background-image: url(all-images/fragrance-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 
