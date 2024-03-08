@@ -73,7 +73,6 @@ body {
 #head-3 {
     width: 10%;
     height: 58%;
-    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -87,11 +86,13 @@ body {
     color: rgb(36, 36, 36);
     background-color: white;
     cursor: pointer;
+    transition: all 0.2s ease-out 0s;
 }
 
 #user-icon {
     font-size: 110%;
     background-color: white;
+    transition: all 0.2s ease-out 0s;
 }
 
 #login-arrow {
@@ -100,11 +101,13 @@ body {
     background-color: white;
     position: relative;
     right: 3%;
+    transition: all 0.2s ease-out 0s;
 }
 
 #login-btn {
     background-color: white;
     font-weight: lighter;
+    transition: all 0.2s ease-out 0s;
 }
 
 #head-4 {
@@ -181,6 +184,20 @@ body {
 }
 
 /* main part */
+
+#login-popup {
+    height: 50%;
+    width: 22%;
+    background-color: white;
+    margin-left: 58.6%;
+    position: fixed;
+    top: 9.2%;
+    z-index: 2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid black;
+    display: none;
+}
 
 #second-box {
     height: 4.85%;
@@ -292,7 +309,7 @@ body {
     position: relative;
     top: 3.13%;
     left: 1.2%;
-    background-image: url(offer-image.webp);
+    background-image: url(all-images/sale-image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -390,7 +407,6 @@ body {
 .ftwo-1 {
     height: 70%;
     width: 90%;
-    background-color: aqua;
 }
 
 .ftwo-1:hover {
@@ -398,15 +414,31 @@ body {
 }
 
 .ftwo-2 {
-    height: 9%;
+    height: 7%;
     width: 90%;
-    background-color: aquamarine;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(36, 36, 36);
+    margin-top: 10%;
 }
 
 .ftwo-3 {
     height: 11%;
     width: 90%;
-    background-color: yellow;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(36, 36, 36);
+    margin-bottom: 5%;
 }
 
 #ft-11 {
