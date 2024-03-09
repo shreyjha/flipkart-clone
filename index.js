@@ -8,6 +8,12 @@ let loginarrowLb = document.getElementById("login-arrow")
 
 let loginPopup = document.getElementById("login-popup")
 
+let threedotsBtn = document.getElementById("head-6")
+threedotsBtn.addEventListener("mouseover", openThreedots)
+threedotsBtn.addEventListener("mouseout", closeThreedots)
+
+let threedotsPopup = document.getElementById("threedots-popup")
+
 function loginOpen() {
     loginBtn.style.backgroundColor = "rgb(42, 91, 236)"
     usericonLb.style.backgroundColor = "rgb(42, 91, 236)"
@@ -37,3 +43,14 @@ function loginClose() {
 
     loginPopup.style.display = "none"
 }
+
+function openThreedots() {
+    threedotsPopup.style.display = "block"
+}
+
+function closeThreedots() {
+    threedotsPopup.style.display = "none"
+}
+
+
+
