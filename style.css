@@ -815,6 +815,70 @@ body {
     cursor: pointer;
 }
 
+#eighth-box {
+    height: 6.5%;
+    width: 98.8%;
+    background-color: white;
+    position: relative;
+    top: 6%;
+    left: 1.2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.eb {
+    height: 100%;
+    width: 33%;
+}
+
+#eb-1 {
+    background-image: url(left-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eb-2 {
+    background-image: url(middle-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eb-3 {
+    background-image: url(right-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* footer part */
+
+#the-footer {
+    height: 2.1%;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    position: relative;
+    top: 6.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(232, 232, 232);
+    border-top: 0.2px solid rgb(211, 211, 211);
+}
+
+#the-footer pre {
+    background-color: rgb(44, 44, 44);
+    font-weight: lighter;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75%;
+}
+
+.footer-icons {
+    background-color: rgb(44, 44, 44);
+    color: rgb(231, 197, 7);
+}
+
 
 
 
