@@ -391,48 +391,66 @@ body {
 }
 
 #third-box {
-    height: 7.02%;
+    height: 7.06%;
     width: 98.8%;
     background-color: white;
     position: relative;
     top: 3.13%;
     left: 1.2%;
-    background-image: url(all-images/sale-image.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
     cursor: pointer;
+}
+
+#third-images {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+#third-images img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.8s ease 0s;
+}
+
+#third-btns {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.third-btns {
+.tb-btns {
+    height: 43%;
+    width: 3.27%;
     border: none;
-    height: 42%;
-    width: 3.35%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.05), -1px -1px 2px 1px rgba(0, 0, 0, 0.05);
     background-color: white;
-    color: rgb(116, 116, 116);
-    font-weight: bold;
-    font-size: large;
+    color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.05), -2px -2px 4px 2px rgba(0, 0, 0, 0.05);
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+} 
+
+#prev {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
-.third-btns:active {
+#next {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.tb-btns:active {
     transform: scale(1.02);
-}
-
-#back-btn {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-#forward-btn {
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    position: relative;
-    right: 0.01%;
 }
 
 #fourth-box {

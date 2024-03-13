@@ -52,5 +52,43 @@ function closeThreedots() {
     threedotsPopup.style.display = "none"
 }
 
+let image3 = document.getElementById("image-3")
+let image2 = document.getElementById("image-2")
+let image1 = document.getElementById("image-1")
+
+let countImg1 = 0
+let countImg2 = 100
+let countImg3 = 200
+
+image3.style.transform = `translateX(${countImg3}%)`
+image2.style.transform = `translateX(${countImg2}%)`
+image1.style.transform = `translateX(${countImg1}%)`
+
+function next() {
+    if (countImg3 > 0) {
+
+        countImg1 -= 100
+        countImg2 -= 100
+        countImg3 -= 100
+
+        image1.style.transform = `translateX(${countImg1}%)`
+        image2.style.transform = `translateX(${countImg2}%)`
+        image3.style.transform = `translateX(${countImg3}%)`
+    }
+}
+
+function prev() {
+    if (countImg1 < 0) {
+
+        countImg1 += 100
+        countImg2 += 100
+        countImg3 += 100
+
+        image1.style.transform = `translateX(${countImg1}%)`
+        image2.style.transform = `translateX(${countImg2}%)`
+        image3.style.transform = `translateX(${countImg3}%)`
+    }
+}
+
 
 
